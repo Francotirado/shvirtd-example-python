@@ -1,7 +1,8 @@
 #!/bin/bash
-
-git clone https://github.com/Francotirado/shvirtd-example-python.git /opt
-
 cd /opt
+
+git clone https://github.com/Francotirado/shvirtd-example-python.git
+
+cd shvirtd-example-python
 
 docker compose up -d --build
